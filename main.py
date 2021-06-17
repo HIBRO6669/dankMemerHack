@@ -14,6 +14,6 @@ async def on_message(message):
         file2 = open('recent.txt', 'w')
         file2.write(message.author.name +': ' + message.content)
 
-client_secret = 'PUT YOUR CLIENT SECRET HERE'
+client_secret = 'vwfFxzEEQ_cqmLSTdprywW1f2Kd5IFc8'
 
 client.run(client_secret)
